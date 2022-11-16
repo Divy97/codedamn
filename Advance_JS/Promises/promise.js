@@ -3,6 +3,8 @@ function getMeAPromise() {
   return fetch("./data.json");
 }
 
-// console.log(getMeAPromise());
+const promise = getMeAPromise();
 
-getMeAPromise().then((response) => console.log(response));
+promise
+  .then((response) => console.log(response))
+  .catch((error) => console.log("ERROR" + error));
