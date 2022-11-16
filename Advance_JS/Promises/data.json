@@ -1,4 +1,5 @@
 {
   "some-data": "data",
-  "Hello": "world"
+  "Hello": "world",
+  "weather": 22.33
 }

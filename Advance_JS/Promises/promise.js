@@ -1,4 +1,3 @@
-console.log("hey");
 function getMeAPromise() {
   return fetch("./data.json");
 }
@@ -6,5 +5,8 @@ function getMeAPromise() {
 const promise = getMeAPromise();
 
 promise
-  .then((response) => console.log(response))
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => console.log(data))
   .catch((error) => console.log("ERROR" + error));
