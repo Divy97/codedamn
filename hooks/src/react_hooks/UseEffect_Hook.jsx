@@ -5,7 +5,11 @@ const UseEffect_Hook = () => {
 
   useEffect(() => {
     console.log("SOMETHING CHANGED");
-  });
+
+    return () => {
+      console.log("CLEANUP FUNCTION");
+    };
+  }, [counter]);
 
   return (
     <div>
