@@ -1,0 +1,5 @@
+UseRef :- 
+
+store the reference of the ELEMENT not the value 
+returns mutable object and has only one property known as .current 
+never ever re-renders the DOM ELEMENT 

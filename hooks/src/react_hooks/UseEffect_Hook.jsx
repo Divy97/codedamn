@@ -21,3 +21,12 @@ const UseEffect_Hook = () => {
 };
 
 export default UseEffect_Hook;
+
+//life cycle method
+
+//Async in useEffect
+
+/*
+
+   
+*/
