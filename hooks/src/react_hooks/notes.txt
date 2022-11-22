@@ -3,3 +3,20 @@ UseRef :-
 store the reference of the ELEMENT not the value 
 returns mutable object and has only one property known as .current 
 never ever re-renders the DOM ELEMENT 
+
+UseReducer :- 
+
+is also used to manage state and re-render component when state change 
+useReducer Hook takes 2 arguments: reducerFunction, initialValue
+generally you pass object as an initialValue in useReducer Hook.
+
+STATE, DISPATCH, ACTION, ACTION_TYPE 
+function reducerFunction(state, action) {
+    return {
+        count: state.count + 1;
+    }
+}
+
+const [state, dispatch] = useReducer(reducerFunction, {count: 0});
+
+dispatch is function basically used to update state 
