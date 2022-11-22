@@ -20,3 +20,10 @@ function reducerFunction(state, action) {
 const [state, dispatch] = useReducer(reducerFunction, {count: 0});
 
 dispatch is function basically used to update state 
+
+useMemo :- 
+
+useMemo aka Memoization is basically used for caching a value so you📝
+have to use it every single time 
+is used in very computationally expensive tasks because it memoize
+the value and rendered only once unless and until that value has not changed 
