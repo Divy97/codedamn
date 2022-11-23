@@ -27,3 +27,8 @@ useMemo aka Memoization is basically used for caching a value so you📝
 have to use it every single time 
 is used in very computationally expensive tasks because it memoize
 the value and rendered only once unless and until that value has not changed 
+
+useCallback :-
+
+useCallback and useMemo works same but the only difference is that 
+useMemo returns value from a function and useCallback returns an entire function
